@@ -60,6 +60,7 @@ a {
     color: #E5E7EB;
     max-width: 450px;
     margin-bottom: 8px;
+    filter: contrast(.5);
 }
 
 .button {
@@ -105,6 +106,7 @@ a {
 .text {
     width: 200px;
     justify-content: center;
+    padding: 8px 5px;
 }
 
 .info>img{
