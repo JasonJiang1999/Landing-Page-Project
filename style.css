@@ -32,6 +32,11 @@ a {
     color: white;
 }
 
+.hero-dog {
+    height: auto;
+    width: 400px;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -44,7 +49,7 @@ a {
 
 .hero-main-text {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     max-width: 350px;
     color: #F9FAF8;
     margin-bottom: 8px;
@@ -66,7 +71,6 @@ a {
 
 .img-placeholder {
     display: flex;
-    background-color: grey;
     width: 500px;
 }
 
@@ -75,4 +79,36 @@ a {
     justify-content: center;
     align-items: center;
     width: 500px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 32px;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.text {
+    width: 200px;
+    justify-content: center;
+}
+
+.info>img{
+    width: 200px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
