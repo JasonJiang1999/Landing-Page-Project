@@ -1,7 +1,6 @@
 body {
     font-family: Roboto, sans-serif, 'Times New Roman';
     margin: 0;
-    height: 200vh;
 }
 
 .first-section{
@@ -143,7 +142,7 @@ a {
 }
 
 .signup-container {
-    height: 25vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
 
@@ -178,4 +177,14 @@ a {
     padding: 10px 30px;
     align-items: center;
     margin-top: -20px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
